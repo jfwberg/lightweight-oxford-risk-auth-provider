@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <classAccesses>
+        <apexClass>OxfordRiskAuthProvider</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <customMetadataTypeAccesses>
+        <enabled>true</enabled>
+        <name>OxfordRiskAuthProvider__mdt</name>
+    </customMetadataTypeAccesses>
+    <customSettingAccesses>
+        <enabled>true</enabled>
+        <name>OxfordRiskEncryptionKey__c</name>
+    </customSettingAccesses>
+    <description>Access to the Lightweight - Oxford Risk Auth Provider Apex Classes</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Lightweight - Oxford Risk Auth Provider</label>
+</PermissionSet>

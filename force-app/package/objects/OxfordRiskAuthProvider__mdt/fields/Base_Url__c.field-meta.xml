@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Base_Url__c</fullName>
+    <defaultValue>&apos;https://org.oxfordrisk.io&apos;</defaultValue>
+    <description>The default base URL</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>The default base url (https://org.oxfordrisk.io)</inlineHelpText>
+    <label>Base URL</label>
+    <length>255</length>
+    <required>true</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

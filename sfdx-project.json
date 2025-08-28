@@ -1,0 +1,30 @@
+{
+  "packageDirectories": [
+    {
+      "versionName": "64.0 - v0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "path": "force-app/package",
+      "default": true,
+      "package": "Lightweight - Oxford Risk Auth Provider",
+      "versionDescription": "A lightweight Auth Provider to connect to the Oxford Risk APIs using a Named Credential.",
+      "dependencies": [
+        {
+          "package": "Lightweight - Apex Unit Test Util v2@2.5.0-1"
+        },
+        {
+          "package": "Lightweight - REST Util@0.13.0-1"
+        }
+      ]
+    }
+  ],
+  "name": "lightweight-oxford-risk-auth-provider",
+  "namespace": "oauth",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "64.0",
+  "packageAliases": {
+    "Lightweight - Apex Unit Test Util v2@2.5.0-1": "04tP3000000rUmLIAU",
+    "Lightweight - REST Util@0.13.0-1": "04tP3000000wMhhIAE",
+    "Lightweight - Oxford Risk Auth Provider": "0HoP300000001QjKAI",
+    "Lightweight - Oxford Risk Auth Provider@0.1.0-1": "04tP3000001PmTtIAK"
+  }
+}

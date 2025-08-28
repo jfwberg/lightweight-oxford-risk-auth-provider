@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>Object to hold the encryption key for the Oxford Risk Auth provider</description>
+    <enableFeeds>false</enableFeeds>
+    <label>Oxford Risk Encryption Key</label>
+    <visibility>Protected</visibility>
+</CustomObject>
