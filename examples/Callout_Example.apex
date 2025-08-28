@@ -10,7 +10,7 @@ private void getClients(){
     
     // The name of the named credential (!! case sensitive !!)
     // Make sure you have access through a permission set for this one
-    String namedCredentialName = 'OR';
+    String namedCredentialName = 'Oxford_Risk';
     
     // the specific endpoint for the API (What comes after the Base URL)
     String apiEndpoint         = '/clients';
