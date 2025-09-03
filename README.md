@@ -51,7 +51,7 @@ The following packages are optional but recommended.
 |Package Version|0.12.0-1||
 |Last updated date|Feb 13, 2024||
 |Managed Package | <ul><li> `sf package install --wait 30 --security-type AllUsers --package 04tP3000000MVUzIAO`</li><li>`/packaging/installPackage.apexp?p0=04tP3000000MVUzIAO`</li></ul> | [Install in Production](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tP3000000MVUzIAO) | [Install in Sandbox](https://test.salesforce.com/packaging/installPackage.apexp?mgd=true&p0=04tP3000000MVUzIAO)|
-
+|Blog|[Managing User Context and (Error) Logging in Salesforce Auth Providers and Named/External Credentials](https://medium.com/@justusvandenberg/managing-user-context-and-error-logging-in-salesforce-auth-providers-and-named-external-283b0eaac4d)||
 
 
 
@@ -149,6 +149,7 @@ Once you have successfully authenticated your External Credential, there is one 
 - Select your *External Credential* you created in Step 6
 - Make sure `Generate Authorization Header` is selected, this is by default but check it just in case
 - Optionally you can select a namespace and a network if you use private connect
+- !! If you want to test out the demo component you'll need to add `lwt,utl`  in the `Allowed Namespaces for Callouts`
 - Press `Save`
 ![image](/media/08%20-%20Named%20Credential.png)
 
