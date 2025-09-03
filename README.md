@@ -15,6 +15,9 @@ A lightweight Auth Provider implementation to connect to the Oxford Risk APIs us
 - Do this often and to do this at the same time as the password updates
 - See the [Rotate Encryption Key Example](/examples/Rotate%20Encryption%20Key.apex) on how to execute the rotation code
 
+## Example
+- You can find an implementation example in the [Oxford Risk Integration Example Repo](https://github.com/jfwberg/oxford-risk-integration-example)
+
 
 ## Package Info
 |   |   |   |   |
